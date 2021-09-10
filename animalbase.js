@@ -15,9 +15,8 @@ const Animal = {
 function start() {
   console.log("ready");
 
-  // TODO: Add event-listeners to filter and sort buttons
+  // TODO: Add event-listeners to filter and sort buttons --> function registerButtons
   registerButtons();
-
   loadJSON();
 }
 
